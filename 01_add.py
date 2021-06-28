@@ -5,7 +5,8 @@ import unittest
 
 
 def add(n1, n2):
-    pass
+    y = n1 + n2
+    return y
 
 
 # DO NOT TOUCH THE BELOW CODE
@@ -23,3 +24,4 @@ class TestAdd(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
+

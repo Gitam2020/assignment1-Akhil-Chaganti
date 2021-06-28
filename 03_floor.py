@@ -5,7 +5,8 @@ import unittest
 
 
 def floor(n1, n2):
-    pass
+    y = n1 // n2
+    return y
 
 
 # DO NOT TOUCH THE BELOW CODE
